@@ -6,7 +6,15 @@
                 <div class="px-3">
                     <h3 class="text-white">DC COMICS</h3>
                     <ul class="p-0">
-                        <!-- <li v-for="(link,index) in links" :key="index.links" class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">{{link.link}}</a></li> -->
+                        
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">Characters</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">Comics</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">Movies</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">TV</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">Games</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">Videos</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">News</a></li>
+
                     </ul>
                     <h3 class="text-white">SHOP</h3>
                     <ul class="p-0">
@@ -18,14 +26,20 @@
                 <div class="px-3">
                     <h3 class="text-white">DC</h3>
                     <ul class="p-0">
-                        <!-- <li v-for="(link,index) in linksTwo" :key="index.linksTwo" class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">{{link.link}}</a></li> -->
+                        @foreach(config('linkFoot') as $val)
+                            <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">{{$val['link']}}</a></li>
+                        @endforeach
                     </ul>
                 </div>
 
                 <div class="px-3">
                     <h3 class="text-white">SITES</h3>
                     <ul class="p-0">
-                        <!-- <li v-for="(link,index) in linksThree" :key="index.linksThree" class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">{{link.link}}</a></li> -->
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">DC</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">MAD Magazine</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">DC Kids</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">DC Universe</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">DC Power Visa</a></li>                        
                     </ul>
                 </div>
             </div>         
@@ -39,8 +53,8 @@
                 
                 <div class="section_social">
                     <span class="px-2 text-primary">FOLLOW US</span>
-                    @foreach(config('footer') as $val)
-                        <a v-for="(link,index) in logoLinks" :key="index.logoLinks" :href="link.url"><img  class="px-1" :src="link.link" alt=""/></a>
+                    @foreach(config('secLogo') as $links)
+                        <a href="{{$links['url']}}"><img  class="px-1" src="{{asset('/image/$links['link'])" alt=""/></a>
                     @endforeach
                 </div>
             </div>
