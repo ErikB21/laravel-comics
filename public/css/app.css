@@ -1,0 +1,109 @@
+.my_jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  height: 400px;
+  background-size: cover;
+}
+
+.my_button {
+  top: 470px;
+  z-index: 21;
+}
+
+.my_width_main {
+  background-color: #1C1C1C;
+}
+
+.my_width_main .card {
+  max-width: calc(16.6666666667% - 30px);
+  max-height: 50%;
+  background-color: #1C1C1C;
+  margin: 10px 15px;
+}
+
+.my_width_main .card img {
+  width: 100%;
+}
+
+.my_width_main .card img:hover {
+  box-shadow: 10px 5px 5px 5px black;
+  opacity: 0.6;
+  transform: perspective(12cm) rotateX(-15deg) rotateY(30deg);
+}
+
+.my_width_main .my_second_button {
+  width: 150px;
+  margin-top: 10px;
+}
+
+.cl-effect-12 a::before,
+.cl-effect-12 a::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  content: "";
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translateX(-50%) translateY(-50%) scale(0.2);
+}
+
+.cl-effect-12 a::after {
+  width: 70px;
+  height: 70px;
+  border-width: 6px;
+  transform: translateX(-50%) translateY(-50%) scale(0.8);
+}
+
+.cl-effect-12 a:hover::before,
+.cl-effect-12 a:hover::after,
+.cl-effect-12 a:focus::before,
+.cl-effect-12 a:focus::after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+.my_personal_bg {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  padding: 0 180px;
+}
+
+.my_personal_bg a {
+  color: #66787F;
+}
+
+.my_personal_bg .my_personal_bg_logo {
+  background-image: url("/images/dc-logo-bg.jpg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.my_personal_color_bg {
+  background-color: #303030;
+}
+
+.my_personal_color_bg .btn:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black !important;
+}
+
+.my_jumbotron {
+  width: 100%;
+  background-image: url("/images/jumbotron.jpg");
+  height: 500px;
+  background-size: cover;
+}
+
+.my_jumbotron img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+

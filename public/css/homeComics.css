@@ -1,0 +1,37 @@
+.my_jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  height: 400px;
+  background-size: cover;
+}
+
+.my_button {
+  top: 470px;
+  z-index: 21;
+}
+
+.my_width_main {
+  background-color: #1C1C1C;
+}
+
+.my_width_main .card {
+  max-width: calc(16.6666666667% - 30px);
+  max-height: 50%;
+  background-color: #1C1C1C;
+  margin: 10px 15px;
+}
+
+.my_width_main .card img {
+  width: 100%;
+}
+
+.my_width_main .card img:hover {
+  box-shadow: 10px 5px 5px 5px black;
+  opacity: 0.6;
+  transform: perspective(12cm) rotateX(-15deg) rotateY(30deg);
+}
+
+.my_width_main .my_second_button {
+  width: 150px;
+  margin-top: 10px;
+}
+

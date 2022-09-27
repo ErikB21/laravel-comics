@@ -1,0 +1,27 @@
+.my_personal_bg {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  padding: 0 180px;
+}
+
+.my_personal_bg a {
+  color: #66787F;
+}
+
+.my_personal_bg .my_personal_bg_logo {
+  background-image: url("/images/dc-logo-bg.jpg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.my_personal_color_bg {
+  background-color: #303030;
+}
+
+.my_personal_color_bg .btn:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black !important;
+}
+
