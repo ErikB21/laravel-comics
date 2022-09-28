@@ -2,26 +2,27 @@
 
     $logoLinks = [
         [
-            "link" => 'footer-facebook.png',
+            "link" => "asset('/images/footer-facebook.png')",
             "url" => 'https://www.facebook.com/dc/'
         ],
         [
-            "link" => 'footer-twitter.png',
+            "link" => "asset('/images/footer-twitter.png')",
             "url" => 'https://twitter.com/dccomics'
         ],
         [
-            "link" => 'footer-youtube.png',
+            "link" => "asset('/images/footer-youtube.png')",
             "url" => 'https://www.youtube.com/channel/UCiifkYAs_bq1pt_zbNAzYGg'
         ],
         [
-            "link" => 'footer-pinterest.png',
+            "link" => "asset('/images/footer-pinterest.png')",
             "url" => 'https://www.pinterest.it/dccomics/'
         ],
         [
-            "link" => 'footer-periscope.png',
+            "link" => "asset('/images/footer-periscope.png')",
             "url" => 'https://www.chsperiscope.com/tag/dc-comics/'
         ]
     ];
+
     return $logoLinks;
 
 

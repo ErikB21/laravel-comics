@@ -3,4 +3,9 @@
 @import '/resources/sass/footer.scss';
 @import '/resources/sass/home.scss';
 
+html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 

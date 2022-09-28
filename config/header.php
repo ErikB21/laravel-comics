@@ -8,7 +8,11 @@ return [
         ],
         [
             'text' => 'COMICS',
-            'url' => '#'     
+            'url' => 'comicsHome'     
+        ],
+        [
+            'text' => 'HOME',
+            'url' => '/'     
         ],
         [
             'text' => 'TV',

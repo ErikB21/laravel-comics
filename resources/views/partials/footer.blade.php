@@ -1,4 +1,4 @@
-<footer class="container-fluid ">
+<footer class="container-fluid px-0">
 
         <div class="row my_personal_bg justify-content-center">
             <div class="col-12 col-md-6 col-lg-5 d-flex justify-content-center pt-3">
@@ -8,7 +8,7 @@
                     <ul class="p-0">
                         
                         <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">Characters</a></li>
-                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">Comics</a></li>
+                        <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="{{route('comicsHome')}}">Comics</a></li>
                         <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">Movies</a></li>
                         <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">TV</a></li>
                         <li class="fs-6 list-unstyled"><a class="text-decoration-none fs-6" href="">Games</a></li>
@@ -53,8 +53,8 @@
                 
                 <div class="section_social">
                     <span class="px-2 text-primary">FOLLOW US</span>
-                    @foreach(config('secLogo') as $links)
-                        <a href="{{$links['url']}}"><img  class="px-1" src="{{asset('/image/$links['link'])" alt=""/></a>
+                    @foreach(config('secLogo') as $link)
+                        <a href="{{$link['url']}}"><img  class="px-1" src="{{$link['link']}}" alt=""/></a>
                     @endforeach
                 </div>
             </div>
