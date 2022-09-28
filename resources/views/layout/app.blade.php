@@ -13,6 +13,8 @@
 
     @include('partials.header')
 
+    @include('partials.jumbo')
+    
     <main class="container-fluid px-0 position-relative">
         @yield('content')
     </main>

@@ -1,0 +1,7 @@
+.my_jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  height: 400px;
+  background-size: cover;
+  width: 100%;
+}
+

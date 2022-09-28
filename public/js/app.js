@@ -19425,6 +19425,17 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/details.scss":
+/*!*************************************!*\
+  !*** ./resources/sass/details.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/footer.scss":
 /*!************************************!*\
   !*** ./resources/sass/footer.scss ***!
@@ -19469,10 +19480,21 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/jumbo.scss":
+/*!***********************************!*\
+  !*** ./resources/sass/jumbo.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/header.scss ./resources/sass/footer.scss ./resources/sass/home.scss ./resources/sass/homeComics.scss ***!
-  \***********************************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/header.scss ./resources/sass/footer.scss ./resources/sass/home.scss ./resources/sass/homeComics.scss ./resources/sass/details.scss ./resources/sass/jumbo.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19481,7 +19503,9 @@ __webpack_require__(/*! C:\Users\erikb\Desktop\Boolean_Erik\VISUALCODE_LARAVEL\l
 __webpack_require__(/*! C:\Users\erikb\Desktop\Boolean_Erik\VISUALCODE_LARAVEL\laravel-comics\resources\sass\header.scss */"./resources/sass/header.scss");
 __webpack_require__(/*! C:\Users\erikb\Desktop\Boolean_Erik\VISUALCODE_LARAVEL\laravel-comics\resources\sass\footer.scss */"./resources/sass/footer.scss");
 __webpack_require__(/*! C:\Users\erikb\Desktop\Boolean_Erik\VISUALCODE_LARAVEL\laravel-comics\resources\sass\home.scss */"./resources/sass/home.scss");
-module.exports = __webpack_require__(/*! C:\Users\erikb\Desktop\Boolean_Erik\VISUALCODE_LARAVEL\laravel-comics\resources\sass\homeComics.scss */"./resources/sass/homeComics.scss");
+__webpack_require__(/*! C:\Users\erikb\Desktop\Boolean_Erik\VISUALCODE_LARAVEL\laravel-comics\resources\sass\homeComics.scss */"./resources/sass/homeComics.scss");
+__webpack_require__(/*! C:\Users\erikb\Desktop\Boolean_Erik\VISUALCODE_LARAVEL\laravel-comics\resources\sass\details.scss */"./resources/sass/details.scss");
+module.exports = __webpack_require__(/*! C:\Users\erikb\Desktop\Boolean_Erik\VISUALCODE_LARAVEL\laravel-comics\resources\sass\jumbo.scss */"./resources/sass/jumbo.scss");
 
 
 /***/ })

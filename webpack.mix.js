@@ -16,4 +16,7 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/header.scss', 'public/css')
     .sass('resources/sass/footer.scss', 'public/css')
     .sass('resources/sass/home.scss', 'public/css')
-    .sass('resources/sass/homeComics.scss', 'public/css');
+    .sass('resources/sass/homeComics.scss', 'public/css')
+    .sass('resources/sass/details.scss', 'public/css')
+    .sass('resources/sass/jumbo.scss', 'public/css');
+

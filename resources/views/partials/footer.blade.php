@@ -54,7 +54,7 @@
                 <div class="section_social">
                     <span class="px-2 text-primary">FOLLOW US</span>
                     @foreach(config('secLogo') as $link)
-                        <a href="{{$link['url']}}"><img  class="px-1" src="{{$link['link']}}" alt=""/></a>
+                        <a href="{{$link['url']}}"><img  class="px-1" src="{{asset($link['link'])}}" alt=""/></a>
                     @endforeach
                 </div>
             </div>

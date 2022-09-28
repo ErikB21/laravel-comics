@@ -6,11 +6,7 @@
 @endsection
 
 @section('content')
-        <div class="row">
-            <div class="my_jumbotron d-flex justify-content-center align-items-center">
-                <h1 class=" text-center text-light">Benvenuti nel mondo Comics!</h1>
-            </div> 
-        </div>     
+    <h1 class="position-absolute bottom-100 start-50 translate-middle text-center text-light">Benvenuti nel mondo Comics!</h1>         
 @endsection
 
 
