@@ -194,15 +194,19 @@ h1 {
   background-color: #55BA59;
 }
 
-.sec_width {
+.my_bg {
+  background-color: #f6f6f6;
+}
+
+.my_bg .sec_width {
   width: 45%;
 }
 
-.sec_width .my_talent {
+.my_bg .sec_width .my_talent {
   margin: 0 30px;
 }
 
-.sec_width .my_talent .art_by {
+.my_bg .sec_width .my_talent .art_by {
   width: 80%;
 }
 

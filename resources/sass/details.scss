@@ -38,12 +38,15 @@
     } 
 }
 
-.sec_width{
-    width: 45%;
-    .my_talent{
-        margin: 0 30px;
-        .art_by{
-            width: 80%;
+.my_bg{
+    background-color: #f6f6f6;
+    .sec_width{
+        width: 45%;
+        .my_talent{
+            margin: 0 30px;
+            .art_by{
+                width: 80%;
+            }
         }
     }
 }

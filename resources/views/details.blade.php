@@ -30,7 +30,7 @@
         </div>
     </div>
     
-    <div class="container-fluid px-0 d-flex justify-content-center align-items-start">
+    <div class="my_bg container-fluid px-0 pt-2 d-flex justify-content-center align-items-start">
         <div class="sec_width">
             <h3 class="px-5 py-2">Talent</h3>
             <div class="my_talent">
