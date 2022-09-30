@@ -164,12 +164,46 @@ h1 {
 .my_card {
   width: 180px;
   height: 250px;
-  left: 550px;
+  left: 200px;
   top: -220px;
 }
 
 .my_card img {
   width: 100%;
+}
+
+.details {
+  width: 70%;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.details .my_width {
+  width: 85%;
+}
+
+.details .my_width .my_price {
+  width: 65%;
+  outline: 1px solid black;
+  background-color: #55BA59;
+}
+
+.details .my_width .my_option {
+  width: 35%;
+  outline: 1px solid black;
+  background-color: #55BA59;
+}
+
+.sec_width {
+  width: 45%;
+}
+
+.sec_width .my_talent {
+  margin: 0 30px;
+}
+
+.sec_width .my_talent .art_by {
+  width: 80%;
 }
 
 .my_jumbotron {

@@ -10,31 +10,31 @@ return [
         "sale_date" => "2018-10-02",
         "type" => "comic book",
         "artists" => [
-            "José Luis García-López",
-            "Clay Mann",
-            "Rafael Albuquerque",
-            "Patrick Gleason",
-            "Dan Jurgens",
-            "Joe Shuster",
-            "Neal Adams",
-            "Curt Swan",
-            "John Cassaday",
-            "Olivier Coipel",
+            "José Luis García-López,",
+            "Clay Mann,",
+            "Rafael Albuquerque,",
+            "Patrick Gleason,",
+            "Dan Jurgens,",
+            "Joe Shuster,",
+            "Neal Adams,",
+            "Curt Swan,",
+            "John Cassaday,",
+            "Olivier Coipel,",
             "Jim Lee"
         ],
         "writers" => [
-            "Brad Meltzer",
-            "Tom King",
-            "Scott Snyder",
-            "Geoff Johns",
-            "Brian Michael Bendis",
-            "Paul Dini",
-            "Louise Simonson",
-            "Richard Donner",
-            "Marv Wolfman",
-            "Peter J. Tomasi",
-            "Dan Jurgens",
-            "Jerry Siegel",
+            "Brad Meltzer,",
+            "Tom King,",
+            "Scott Snyder,",
+            "Geoff Johns,",
+            "Brian Michael Bendis,",
+            "Paul Dini,",
+            "Louise Simonson,",
+            "Richard Donner,",
+            "Marv Wolfman,",
+            "Peter J. Tomasi,",
+            "Dan Jurgens,",
+            "Jerry Siegel,",
             "Paul Levitz"
         ],
     ],
@@ -137,9 +137,9 @@ return [
         "sale_date" => "2020-09-29",
         "type" => "comic book",
         "artists" => [
-            "Clayton Henry",
-            "Gleb Melnikov",
-            "Dale Eaglesham"
+            "Clayton Henry,",
+            "Gleb Melnikov,",
+            "Dale Eaglesham,"
         ],
         "writers" => [
             "Joshua Williamson"
@@ -154,15 +154,15 @@ return [
         "sale_date" => "2020-09-29",
         "type" => "comic book",
         "artists" => [
-            "Guillem March",
-            "Ashley A. Woods",
-            "Olivier Coipel",
-            "James Stokoe",
+            "Guillem March,",
+            "Ashley A. Woods,",
+            "Olivier Coipel,",
+            "James Stokoe,",
             "Darko Lafuente"
         ],
         "writers" => [
-            "Sam Johns",
-            "Joshua Williamson",
+            "Sam Johns,",
+            "Joshua Williamson,",
             "John Ridley"
         ],
     ],
@@ -205,7 +205,7 @@ return [
         "sale_date" => "2019-04-10",
         "type" => "graphic novel",
         "artists" => [
-            "Fernando Blanco",
+            "Fernando Blanco,",
             "Joëlle Jones"
         ],
         "writers" => [
