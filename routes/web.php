@@ -27,3 +27,7 @@ Route::get('/details/{id}', function($id){
     $details = $detailsComics[$id];
     return view('details', ['details' => $details]);
 })->name('details');
+
+Route::get('/tv', function(){
+    return view('tv');
+})->name('tv');

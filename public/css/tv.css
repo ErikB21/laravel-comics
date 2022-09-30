@@ -1,0 +1,10 @@
+.my_square {
+  background-color: darkslategray;
+  opacity: 0.5;
+}
+
+.my_square h1 {
+  font-size: 5rem;
+  color: orange;
+}
+

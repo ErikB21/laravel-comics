@@ -8,7 +8,7 @@ return [
         ],
         [
             'text' => 'COMICS',
-            'url' => 'comicsHome'     
+            'url' => '/comicsHome'     
         ],
         [
             'text' => 'HOME',
@@ -16,7 +16,7 @@ return [
         ],
         [
             'text' => 'TV',
-            'url' => '#'     
+            'url' => '/tv'     
         ],
         [
             'text' => 'MOVIES',

@@ -6,7 +6,9 @@
 @endsection
 
 @section('content')
-    <h1 class="position-absolute bottom-100 start-50 translate-middle text-center text-light">Benvenuti nel mondo Comics!</h1>         
+    <div class="my_square position-absolute bottom-100 start-50 translate-middle">
+        <h1 class="text-center text-light">Benvenuti nel mondo Comics!</h1>         
+    </div>
 @endsection
 
 
